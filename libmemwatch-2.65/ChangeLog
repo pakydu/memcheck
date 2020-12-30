@@ -1,0 +1,62 @@
+4/23/2001 - PDK - 2.65
+                  Packaged as a library with the autotools.
+991009 JLI  [2.64 undef's strdup() if defined, mwStrdup made const]
+991007 JLI  [2.63 first shot at a 64-bit compatible version]
+991001 JLI  [2.62 added CHECK_BUFFER() and mwTestBuffer()]
+990715 JLI  [2.61 changed TRACE/ASSERT/VERIFY macro names]
+990610 JLI  [2.60 fixed some more high-sensitivity warnings]
+990517 JLI  [2.59 fixed some high-sensitivity warnings]
+990516 JLI  [2.58 added 'static' to the definition of mwAutoInit]
+990303 JLI  [2.57 first maybe-fixit-for-hpux test]
+990224 JLI  [2.56 changed ordering of members in structures]
+990217 JLI  [2.55 improved the emergency repairs diagnostics and NML]
+990112 JLI  [2.53 added check for empty heap to mwIsOwned]
+980512 JLI  [2.52 moved MW_ARI_NULLREAD to occur before aborting]
+980417 JLI  [2.51 more checks for invalid addresses]
+980318 JLI  [2.50 improved self-repair facilities & SIGSEGV support]
+980317 JLI  [2.48 ripped out C++ support; wasn't working good anyway]
+970813 JLI  [2.47 stabilized marker handling]
+970723 JLI  [2.46 added MW_ARI_NULLREAD flag]
+970405 JLI  [2.45 fixed bug related with atexit() and some C++ compilers]
+970209 JLI  [2.44 changed default filename to lowercase]
+970207 JLI  [2.43 added support for strdup()]
+970113 JLI  [2.42 added support for PC-Lint 7.00g]
+970101 JLI  [2.41 added over/underflow checking after failed ASSERT/VERIFY]
+961222 JLI  [2.40 added mwMark() & mwUnmark()]
+961002 JLI  [2.32 support for realloc() + fixed STDERR bug]
+960805 JLI  [2.31 merged X.02 version with current]
+960805 JLI  [2.30 mwIsXXXXAddr() to avoid unneeded GP's]
+960801 JLI  [2.22 merged X.01 version with current]
+960710 JLI  [X.02 multiple logs and mwFlushNow()]
+960516 JLI  [2.21 better support for using MEMWATCH with DLL's]
+960516 JLI  [2.20 suppression of file flushing on unfreed msgs]
+960515 JLI  [2.13 possibility to use default new() & delete()]
+960514 JLI  [2.12 undefining of existing macros]
+960125 JLI  [X.01 implemented auto-checking using mwAutoCheck()]
+951201 JLI  [2.11 improved auto-free in emergencies]
+950913 JLI  [2.10 improved garbage handling]
+940328 JLI  [2.00 version 2.0 rewrite]
+            Improved NML (no-mans-land) support.
+            Improved performance (especially for free()ing!).
+            Support for 'read-only' buffers (checksums)
+            ^^ NOTE: I never did this... maybe I should?
+            FBI (free'd block info) tagged before freed blocks
+            Exporting of the mwCounter variable
+            mwBreakOut() localizes debugger support
+            Allocation statistics (global, per-module, per-line)
+            Self-repair ability with relinking
+940110 JLI  [1.80 no-mans-land alloc/checking]
+931108 JLI  [1.77 mwSetAssertAction() & some small changes]
+931016 JLI  [1.72 modified C++ new/delete handling]
+930820 JLI  [1.70 data dump when unfreed]
+930809 JLI  [1.65 Abort/Retry/Ignore]
+930507 JLI  [1.60 mwTest & CHECK()]
+930506 JLI  [1.55 MemWatch class, improved C++ support]
+930327 JLI  [1.51 better auto-init & PC-lint support]
+930215 JLI  [1.50 modified ASSERT/VERIFY]
+921116 JLI  [1.40 mwSetOutFunc]
+921105 JLI  [1.30 C++ support and TRACE]
+921022 JLI  [1.20 ASSERT and VERIFY]
+920912 JLI  [1.15 mwPuts, mwGrab/Drop, mwLimit]
+920830 JLI  [1.10 double-free detection]
+920810 JLI  [1.00]

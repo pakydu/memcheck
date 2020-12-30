@@ -1,0 +1,15 @@
+Begin3
+Title:          memwatch
+Version:        2.64
+Entered-date:   1999-10-20
+Description:    fault tolerant ANSI-C source code memory leak and corruption detection
+Keywords:       memwatch debugging library memory leak source code ansi c
+Author:         johan@link-data.com
+Maintained-by:  johan@link-data.com
+Primary-site:   ftp.link-data.com /pub/memwatch
+                33K memwatch-2.64.tar.gz
+Alternate-site: 
+Original-site:  ftp.link-data.com /pub/memwatch
+Platforms:      all
+Copying-policy: Public Domain
+End
